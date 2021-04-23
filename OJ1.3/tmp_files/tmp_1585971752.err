@@ -1,0 +1,4 @@
+./tmp_files/tmp_1585971752.cpp: In member function ‘bool Slution::slute(int)’:
+./tmp_files/tmp_1585971752.cpp:10:20: error: ‘ture’ was not declared in this scope
+             return ture;
+                    ^
