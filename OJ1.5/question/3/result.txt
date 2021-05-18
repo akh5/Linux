@@ -1,0 +1,4 @@
+
+Compile and run is okey!
+程序运行成功，通过率100%
+

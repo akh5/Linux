@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线编程</title>
+    <link rel="stylesheet" href="../view/one_q.css" type="text/css">
+</head>
+<body>
+<div class="detail">
+    <div id="intro"><pre>时间限制：C/C++ 1秒，其他语言2秒  空间限制：C/C++ 256M，其他语言512M
+
+热度指数：4692
+
+    </pre></div>
+    <h3>题目描述</h3>
+    <p id="desc">{{desc}}</p>
+    <h4>示例</h4>
+    <div id="des">
+        <p>输入</p>
+        <div class="print"><p style="white-space:pre">{{inp}}</p></div><br>
+        <p>输出</p>
+        <div class="print"><p style="white-space:pre">{{outp}}</p></div><br>
+    </div>
+</div>
+<div class="pram">
+    <form action="/question/{{id}}" method="POST">
+        <textarea style="height: 500px" class="inp" name="code">{{header}}</textarea>
+        <hr>
+        <textarea style="height: 150px" class="inp">
+            {{comp}}
+        </textarea>
+        <label><div id="save"><h3 style="color: white;text-align: center;line-height: 10px">保存并调试</h3></div><input type="submit" formenctype="appliaction/json" style="display: none"></label>
+    </form>
+</div>
+</body>
+</html>

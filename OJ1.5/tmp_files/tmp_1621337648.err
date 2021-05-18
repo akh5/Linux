@@ -1,0 +1,22 @@
+./tmp_files/tmp_1621337648.cpp: 在函数‘int main()’中:
+./tmp_files/tmp_1621337648.cpp:23:3: 错误：‘vector’在此作用域中尚未声明
+   vector<string> test{"We Are Happy","test  one two "," first"};
+   ^
+./tmp_files/tmp_1621337648.cpp:23:16: 错误：expected primary-expression before ‘>’ token
+   vector<string> test{"We Are Happy","test  one two "," first"};
+                ^
+./tmp_files/tmp_1621337648.cpp:23:18: 错误：‘test’在此作用域中尚未声明
+   vector<string> test{"We Are Happy","test  one two "," first"};
+                  ^
+./tmp_files/tmp_1621337648.cpp:23:22: 错误：expected ‘;’ before ‘{’ token
+   vector<string> test{"We Are Happy","test  one two "," first"};
+                      ^
+./tmp_files/tmp_1621337648.cpp:24:16: 错误：expected primary-expression before ‘>’ token
+   vector<string> out{"We%20Are%20Happy","test%20%20one%20two%20","%20first"};
+                ^
+./tmp_files/tmp_1621337648.cpp:24:18: 错误：‘out’在此作用域中尚未声明
+   vector<string> out{"We%20Are%20Happy","test%20%20one%20two%20","%20first"};
+                  ^
+./tmp_files/tmp_1621337648.cpp:24:21: 错误：expected ‘;’ before ‘{’ token
+   vector<string> out{"We%20Are%20Happy","test%20%20one%20two%20","%20first"};
+                     ^
