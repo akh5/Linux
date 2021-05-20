@@ -1,4 +1,0 @@
-./tmp_files/tmp_1619113329.cpp: In member function ‘bool Slution::slute(int)’:
-./tmp_files/tmp_1619113329.cpp:11:9: warning: no return statement in function returning non-void [-Wreturn-type]
-         }
-         ^

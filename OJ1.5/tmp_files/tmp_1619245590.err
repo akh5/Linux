@@ -1,7 +1,0 @@
-./tmp_files/tmp_1619245590.cpp: 在成员函数‘bool Slution::slute(int)’中:
-./tmp_files/tmp_1619245590.cpp:10:13: 错误：‘fsdafsad’在此作用域中尚未声明
-             fsdafsad
-             ^
-./tmp_files/tmp_1619245590.cpp:11:9: 错误：expected ‘;’ before ‘}’ token
-         }
-         ^
