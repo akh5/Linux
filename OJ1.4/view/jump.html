@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>跳转</title>
+<style>
+    .ground {
+        width: 60%;
+        height: 30%;
+        border: 3px solid green;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin:auto;
+        background-color:honeydew;
+    }
+</style>
+</head>
+
+<body>
+  <p id="flag" hidden>{{flag}}</p>
+<div class="ground">
+    <p id="content" style="text-align: center;height: 50%;line-height: 100px;font-size: 30px;"></p>
+    <p style="color: blue;text-align: center;bottom: 0;">3秒后跳转</p>
+</div>
+
+
+<script type="text/javascript">
+    var flag = document.getElementById('flag').innerHTML;
+    var content = document.getElementById('content');
+    var count = 3;
+    if(flag=="true")
+    {
+        console.log("its true");
+        content.innerText = "登录成功，准备跳转到主页面...";
+        var link = "/all_questions";
+
+    }else{
+        console.log("its false");
+        content.innerText = "登录失败，请重新登录...";
+        var link = "/login";
+    }
+
+    function writeTip(){
+            count--;
+            if(count==0){
+                window.clearInterval(t);
+                window.location = link;
+            }
+        }
+
+
+    t = window.setInterval("writeTip()",1000);
+
+</script>
+</body>
+</html>
