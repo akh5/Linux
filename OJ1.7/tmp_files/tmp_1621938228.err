@@ -1,0 +1,7 @@
+./tmp_files/tmp_1621938228.cpp: In member function ‘std::string Slution::slute(std::string)’:
+./tmp_files/tmp_1621938228.cpp:12:1: error: ‘lkdjflksa’ was not declared in this scope
+ lkdjflksa
+ ^~~~~~~~~
+./tmp_files/tmp_1621938228.cpp:13:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^

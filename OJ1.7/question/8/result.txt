@@ -1,0 +1,5 @@
+
+Compile and run is okey!
+test1 ok
+test2 ok
+

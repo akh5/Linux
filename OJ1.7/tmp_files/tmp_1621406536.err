@@ -1,0 +1,7 @@
+./tmp_files/tmp_1621406536.cpp:23:3: 错误：程序中有游离的‘#’
+ };#ifndef CompileOnline
+   ^
+./tmp_files/tmp_1621406536.cpp:24:22: 致命错误：header.cpp：没有那个文件或目录
+ #include "header.cpp"
+                      ^
+编译中断。

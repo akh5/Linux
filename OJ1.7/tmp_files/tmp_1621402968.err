@@ -1,0 +1,7 @@
+./tmp_files/tmp_1621402968.cpp: 在成员函数‘std::string Slution::slute(std::string)’中:
+./tmp_files/tmp_1621402968.cpp:11:10: 错误：‘dsflkjsdl’在此作用域中尚未声明
+          dsflkjsdl
+          ^
+./tmp_files/tmp_1621402968.cpp:13:9: 错误：expected ‘;’ before ‘}’ token
+         }
+         ^

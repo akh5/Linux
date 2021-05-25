@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户信息</title>
+    <link href="./view/user.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="header"><img src="./view/img/title.png"></div>
+<hr>
+<div id="ques">
+<div style="white-space:pre">题号                  考点                                    题目                                   难度                        通过率</div>
+<hr>
+{{#question}}
+<a href="{{link}}">{{question}}</a>
+{{/question}}
+</div>
+<div id="else">
+    <div id="t">
+        <h3 style="display: inline;margin: 10px; width:15px" >
+        <script type="text/javascript">
+            var out = document.getElementById("t");
+            var t = new Date();
+            var arr = new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+            document.write(arr[t.getDay()]);
+            document.write("<br>");
+            document.write("&ensp;"+(t.getMonth()+1)+"-"+t.getDate());
+        </script>
+        </h3>
+    </div>
+    <div id="scult"></div>
+    <h3 style="text-align: center;margin-top: 5px">{{user}}</h3>
+</div>
+</body>
+
+</html>

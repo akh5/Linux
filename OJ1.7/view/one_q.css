@@ -1,0 +1,70 @@
+.detail{
+    position: absolute;
+    width: 45%;
+    height: 100%;
+}
+.detail #desc{
+    white-space: pre;
+    margin-right: 8px;
+}
+.detail #intro{
+    position: relative;
+    width: 95%;
+    top: 10px;
+    left: 8px;
+    right: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 8px;
+    background-color: rgb(238,238,238);
+}
+.detail #des{
+    position: relative;
+    width: 95%;
+    top: 10px;
+    left: 8px;
+    right: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    border-radius: 8px;
+    background-color: rgb(234,240,245);
+}
+.detail #des .print{
+    background-color: rgb(250,250,250);
+    width: 95%;
+    top: 10px;
+    left: 8px;
+    right: 10px;
+    height: 30px;
+    padding-top: 0;
+    padding-left: 5px;
+
+}
+.pram{
+    position: fixed;
+    left: 45%;
+    width: 55%;
+    height: 100%;
+    background-color: rgb(39,40,34);
+}
+#save{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 30px;
+    top: 90%;
+    background-color: rgb(103,198,219);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inp{
+    width: 820px;
+    position: relative;
+    border: none;
+    background-color: rgb(39,40,34);
+    font-family: "Microsoft YaHei UI Light";
+    font-size: 1em;
+    color: lightgray;
+}

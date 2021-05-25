@@ -1,0 +1,7 @@
+./tmp_files/tmp_1621921167.cpp: 在成员函数‘std::string Slution::slute(std::string)’中:
+./tmp_files/tmp_1621921167.cpp:12:1: 错误：‘fdjsklafdsgldsakh’在此作用域中尚未声明
+ fdjsklafdsgldsakh
+ ^
+./tmp_files/tmp_1621921167.cpp:13:9: 错误：expected ‘;’ before ‘}’ token
+         }
+         ^

@@ -1,0 +1,7 @@
+./tmp_files/tmp_1621777540.cpp:24:3: error: stray ‘#’ in program
+ };#ifndef CompileOnline
+   ^
+./tmp_files/tmp_1621777540.cpp:25:10: fatal error: header.cpp: 没有那个文件或目录
+ #include "header.cpp"
+          ^~~~~~~~~~~~
+compilation terminated.
